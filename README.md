@@ -1,4 +1,29 @@
 # ppeffjenkinscdjenkinspipeline
+
+## 2. Getting Started with Jenkins Pipeline
+### My First Pipeline
+(done)
+### Scripted Pipeline Steps
+```
+node {
+  stage('list directory'){
+    if(isUnix()) {
+      sh "ls -la"
+    } else {
+      bat 'dir'
+    }
+  }
+}
+```
+
+
+
+## 4. Building with Docker
+### Installing Docker on the Jenkins Node Server
+```
+groupadd docker
+usermod -aG docker jenkins
+```
 ## 5. Creating a CD pipeline
 ### Intro
 Jenkinsfile
