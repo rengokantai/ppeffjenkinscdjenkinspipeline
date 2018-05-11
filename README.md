@@ -19,6 +19,12 @@ node {
 
 
 ## 4. Building with Docker
+
+### Introduction to Docker
+Note
+- Docker is a software technology providing containers
+- Docker provides an additional layer of abstraction and automation of operating
+system-level virtualization on Windows and Linux
 ### Installing Docker on the Jenkins Node Server
 ```
 groupadd docker
